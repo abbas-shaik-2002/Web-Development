@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<!-- BS ICONS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<title>Space X</title>
+
+<link rel="icon" href="https://www.transparentpng.com/thumb/space/exploration-fuel-nasa-rocket-space-spaceship-png-33.png" type="image/x-icon"/>
+
+</head>
+
+<body class="bg-light bg-opacity-10">
+    
+    <!--NAV BAR-->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+        <div class="container-lg">
+            <a href="#" class="navbar-brand">
+                <span class="fw-bold" style="font-size:25px">SPACE X</span>
+            </a>
+
+
+
+    <!-- TOGGLE BUTTON -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartoggle" aria-controls="navbartoggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <!-- NAVBAR LINKS -->
+    <div class="collapse navbar-collapse justify-content-start align-items-center" id="navbartoggle">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link text-light" aria-current="page" href="#carsoul">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Topics</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://solarsystem.nasa.gov/news/">News</a></li>
+            <li><a class="dropdown-item" href="https://solarsystem.nasa.gov/planets/overview/">Planets</a></li>
+            <li><a class="dropdown-item" href="https://solarsystem.nasa.gov/planets/earth/overview/">Earth</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://solarsystem.nasa.gov/skywatching/home/">Sky watching</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Contact Us</a>
+        </li>
+      </ul>
+              </div>
+        </div>
+    </nav>
+
+<!-- Alert -->
+
+    <!--<div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Holy guacamole!</strong> You should check in on some of those fields below.<a href="#" class="alert-link">an example link</a>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>-->
+
+    <!-- CAROUSEL -->
+    <section id="carsoul">  
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="8000">
+            <img src="Azure-Space.jpg" class="d-block w-100" alt="space1.jpg" width="500" height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <p>Space is the boundless three-dimensional extent in which objects and events have relative position and direction. In classical physics, physical space is often 
+                conceived in three linear dimensions, although modern physicists usually consider it, with time, to be part of a boundless four-dimensional continuum known as spacetime.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://source.unsplash.com/random/?milky way" class="d-block w-100" alt="space2.img" width="500" height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <p>The Milky Way gets its name from a Greek myth about the goddess Hera who sprayed milk across the sky. In other parts of the world, 
+                our galaxy goes by other names. In China it's called the “Silver River,” and in the Kalahari Desert in Southern Africa, it's called the “Backbone of Night.”</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/random/?solarsystem" class="d-block w-100" alt="space3.jpg" width="500" height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <p>Our solar system consists of our star, the Sun, and everything bound to it by gravity 
+                the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune; dwarf planets such as Pluto; dozens of moons; and millions of asteroids, comets, and meteoroids.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+</div>
+</section>
+
+
+<!-- CARDS -->
+<section id="cards" class="my-4">
+  <div class="container-lg">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-4 col-sm-3 text-center">
+        <div class="card">
+          <img src="https://source.unsplash.com/random/?Planet" class="card-img-top" alt="..." width="100" height="200">
+          <div class="card-body">
+            <h3 class="text-secondary">Planets</h3>
+            <p class="card-text">The eight planets Solar System:Mercury,
+              Venus,Earth and Mars,and the giant planets
+              Jupiter,Saturn,Uranus and Neptune</p>
+          </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-3 text-center">
+      <div class="card">
+        <img src="https://source.unsplash.com/random/?solarsystems" class="card-img-top" alt="..." width="200" height="200">
+        <div class="card-body">
+          <h3 class="text-secondary">Solar System</h3>
+          <p class="card-text">Our solar system is made up of a star, eight planets, and countless smaller bodies such as dwarf planets, asteroids, and comets.</p>
+        </div>
+      </div>
+  </div>
+  <div class="col-lg-4 col-sm-3 text-center">
+    <div class="card">
+      <img src="https://source.unsplash.com/random/?dark" class="card-img-top" alt="..." width="200" height="200">
+      <div class="card-body">
+        <h3 class="text-secondary">Dark Energy</h3>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+</div>
+  </div>  
+</div>
+</section>
+
+<!-- PARA -->
+
+<section id="para">
+  <div class="container-lg my-5">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-6 col-md-4">
+      <h2 class="display-5">Philosaphy of Space</h2>
+      <hr class="text-primary">
+      <p class="lead">Galilean and Cartesian theories about space, matter, and motion are at the foundation of the Scientific Revolution, which is understood to have culminated with the publication of Newton's Principia in 1687.[5] Newton's theories about space and time helped him explain the movement of objects. While his theory of space is considered the most influential in Physics, it emerged from his predecessors' ideas about the same.</p>
+    </div>
+    <div class="col-lg-6 col-md-4">
+      <div class="text-center">
+      <img class="img-fluid" src="https://media.news9live.com/h-upload/2022/01/08/144143-galileogalilei1564-1642oilpaintingbyanitalianpainwellcomev0023487.jpg" alt="galelio.jpg" width="400" height="400" style="border-radius:20px">
+      <h4>Galelio</h4>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- NEWS -->
+
+<section id="News" class="my-5">
+  <div class="container-lg">
+    <hr class="text-primary">
+    <h1 class="text-center text-secondary">NEWS</h1>
+    <hr class="text-primary">
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-3 text-start">
+        <div class="card border-0">
+          <img src="https://cdn.mos.cms.futurecdn.net/afpTZsxmezLr3KksVTG6ob-970-80.jpg" class="card-img-top" alt="news.jpg" height="200" weight="200">
+          <div class="card-body">
+            <h3 class="card-title">Mission to Venus</h3>
+            <p class="card-text">On June 12, 1967, Venera 4 was launched into space on a mission to Venus, thus becoming the first spacecraft to transmit data from another planet's atmosphere.</p>
+            <a href="https://www.space.com/strawberry-supermoon-full-moon-2022-what-to-expect" class="btn btn-primary">Click Here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-3 text-start">
+        <div class="card border-0">
+          <img src="https://cdn.mos.cms.futurecdn.net/LnbkuevSnXYBubuXJrP5VM-970-80.jpg" class="card-img-top" alt="moon.jpg" height="200" weight="200">
+          <div class="card-body">
+            <h3 class="card-title">The moon will block</h3>
+            <p class="card-text">The moon will block the bright double star Dschubba, or Delta Scorpii, in an occultation on June 12, 2022. Stargazers in the northeastern U.S.</p>
+            <a href="https://www.space.com/moon-blocks-double-star-delta-scorpii-june-2022" class="btn btn-primary">Click Here</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-3 text-start">
+        <div class="card border-0">
+          <img src="https://cdn.mos.cms.futurecdn.net/Z9Zm72WXJ6yJq3Fufys4HR-1024-80.jpeg.webp" class="card-img-top" alt="..." height="200" weight="200">
+          <div class="card-body">
+            <h3 class="card-title">Curious Kids</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Soon, a lot of smaller objects were discovered </p>
+            <a href="https://www.space.com/pluto-dwarf-planet-or-no-why-matters" class="btn btn-primary">Click Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="text-primary">
+
+<!-- Above Footer -->
+<section id="Above footer" class="my-5">
+  <div class="container-lg my-4">
+    <div class="row">
+        <div class="col-lg-12 col-md-6">
+        <p class="lead">We live on a planet called Earth that is part of our solar system. But where is our solar system? Its a small part of the Milky Way Galaxy.
+
+          A galaxy is a huge collection of gas, dust, and  of stars and their solar systems. A galaxy is held together by gravity. Our galaxy, the Milky Way, also has a  in the middle.
+          When you look up at stars in the night sky, youre seeing other stars in the Milky Way. If its really dark, far away from lights from cities and houses, you can even see the dusty bands of the Milky Way stretch across the sky.
+
+        </p>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!--- MODALS ---->
+
+<!-- Button trigger modal -->
+<section id="modals" class="my-5">
+<div class="container-lg text-center mt-5">
+  <h2 class="text-primary">REGISTER NOW</h2>
+  <p class="fw-bold lead">To get latest and regular updates</p>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Iam Intrested
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <label for="ema" class="form-label">Enter Your Email</label>
+          <input type="email" name="email" class="form-control" placeholder="enter your email">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="btn1" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success" id="btn2">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<!-- footer -->
+  <footer class="bg-dark pt-4 pb-2">
+    <div class="container-lg text-center">
+      <p class="text-center text-light">Space is part of Future US Inc, an international media group and leading digital publisher. Visit our corporate site(opens in new tab).</p>
+      <hr class="text-white">
+    <div class="row justify-content-center my-4">
+      <div class="col-lg-4 col-md-2">
+        <a class="text-light" href="https://www.futureplc.com/privacy-policy/" style="text-decoration:none">Privacy policy</a>
+      </div>
+      <div class="col-lg-4 col-md-2">
+        <a class="text-light" href="https://www.futureplc.com/terms-conditions/" style="text-decoration:none">Terms and Conditions</a>
+      </div>
+      <div class="col-lg-4 col-md-2">
+        <a class="text-light" href="https://www.space.com/topics" style="text-decoration:none">Topics</a>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4 col-md-2">
+      <a class="text-light" href="https://www.futureplc.com/cookies-policy/" style="text-decoration:none">Cookies Policy</a>
+    </div>
+    <div class="col-lg-4 col-md-2">
+      <a class="text-light" href="https://www.futureplc.com/careers/" style="text-decoration:none">careers</a>
+    </div>
+    <div class="col-lg-4 col-md-2">
+      <a class="text-light" href="https://spacecom-apparel.creator-spring.com/?" style="text-decoration:none">Store</a>
+    </div>
+  </div>
+  <hr class="text-light">
+  <p class="text-light">© 2022 All rights reserved to Space X</p>
+</div>
+  </footer>
+<script>
+ 
+
+</script>
+
+    
+</body>
+</html>
