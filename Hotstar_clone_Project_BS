@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>BS1</title>
+
+    <link rel="icon" href="https://www.transparentpng.com/thumb/disney/3xmBCN-disney-logo-png.png" type="image/x-icon"/>
+
+
+    <style>
+        section {
+            padding:60px 0px;
+        }
+
+        #accordions {
+          padding:10px;
+        }
+
+        html,body {
+    height: 100%;
+    width: 100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+ }
+
+    </style>
+
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark bg-light navbar-expand-md">
+        <div class="container-lg">
+            <a href="#" class="navbar-brand">
+                <span class="fw-bold text-primary"><i class="bi bi-house-fill"></i> Home</span>
+            </a>
+            
+            <!--Toggle Button For Mobile-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-Nav" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <!-- Nav Links -->
+                  <div class="collapse navbar-collapse justify-content-end align-center" id="main-Nav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link text-primary" href="https://www.hotstar.com/in/movies" target="_blank"><i class="bi bi-film"></i> Movies</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-primary" href="https://www.hotstar.com/in/sports" target="_blank"><i class="bi bi-controller"></i> Sports</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-primary" href="https://www.hotstar.com/in/tv/list/popular-telugu-shows/t-3503" target="_blank"><i class="bi bi-tv"></i> TV</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-primary" href="#forms"><i class="bi bi-phone"></i> Contact</a>
+                      </li>
+                      <li class="nav-item ms-2 d-md-inline">
+                        <a class="btn btn-primary" href="#plans"><i class="bi bi-stars"></i>SUBSCRIBE</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+
+
+
+
+
+
+
+    <section id="heading">
+    <div class="container-lg my-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-8 text-center text-md-start">
+                <h1>
+                    <div class="display-3">Hey There!</div>
+                    <div class="display-4">Welcome</div>
+                </h1>
+                <p>Disney Plus Hotstar offers two tiers of subscription plans, and features a host of exclusive shows in partnership with international distributors, as well as Hotstar originals. 
+                  Heres everything you need to know.</p>
+                <a href="https://www.hotstar.com/in" class="btn btn-primary">Let's Go</a>
+
+<!----------------------------------- OFFCANVAS --------------------------------------------------->
+
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">About</button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Disney+ Hotstar</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Disney+ Hotstar is the world largest Entertainment Ott platform.
+      it contains the most of the web series and movies and TV shows.
+    you can access all the content in low pricer in the ott platform apps history
+  you can watch unlimited movies without ads disturbence in the <b>PREMIUM AND SUPER PLANS.</b> </p>
+  </div>
+</div>
+</div>
+            <div class="col-lg-4 text-center d-none d-md-block">
+                <img class="img-fluid" src="https://www.transparentpng.com/thumb/birthday-present/purple-box-gift-present-icon-png-10.png" 
+                alt="Gift for you">
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- CARDS -->
+    <section class="bg-light" id="plans">
+      <div class="contaier-lg">
+        <div class="text-center">
+          <h1 class="text-primary">Plans</h1>
+          <p class="lead fw-bold">Movies and Sports</p>
+        </div>
+
+        <div class="row align-items-center justify-content-center my-5 g-0">
+          <div class="col-md-4 col-lg-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-5">
+                <h3 class="card-title">Basic Plan</h3>
+                <p class="card-subtitle">mobile only</p>
+                <p class="display-3 fw-bold text-primary my-5">299/-</p>
+                <ul class="card-text text-start">
+                  <li>All content movies, TV shows, specials, live sports</li>
+                  <li>Ad-supported content Watch on 1 device (mobile or tablet only)</li>
+                  <li>Stereo audio</li>  
+                </ul>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4">
+            <div class="card border-primary">
+              <p class="card header border-0 text-center text-primary">Most popular</p>
+              <div class="card-body text-center py-5">
+                <h3 class="card-title">Super Plan</h3>
+                <p class="card-subtitle">mobile and Laptop</p>
+                <p class="display-3 fw-bold text-primary my-5">899/-</p>
+                <ul class="card-text text-start">
+                  <li>All content movies, TV shows, specials, live sports</li>
+                  <li>Up to Full HD (1080p) resolution</li>
+                  <li>Dolby 5.1 Audio</li>  
+                </ul>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-5">
+                <h3 class="card-title">Premium Plan</h3>
+                <p class="card-subtitle">mobile and Laptop</p>
+                <p class="display-3 fw-bold text-primary my-5">1499/-</p>
+                <ul class="card-text text-start">
+                  <li>All content movies, TV shows, specials, live sports</li>
+                  <li>Watch on up to 4 devices
+                    Up to 4K (2160p) resolution</li>
+                  <li>Dolby 5.1 Audio</li>  
+                </ul>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <hr class="text-primary">
+
+    <!-- Accordians -->
+  <section id="accordians">
+    <h1 class="text-center text-primary">Plans Description</h1>
+    <div class="row my-5 g-5 justify-content-around">
+    <div class="col-lg-6 col-md-4">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            PLAN-1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            PLAN-2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            PLAN-3
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+
+  <hr class="text-primary">
+
+
+  <!-- List Groups -->
+  <section id="list">
+    <div class="text-center p-5">
+      <h1 class="text-primary">Plan Reviews</h1>
+    </div>
+    <div class="container-lg">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-5">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+              <h2>Basic Plan</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iure vel illum explicabo ducimus fugit distinctio quidem commodi non temporibus. Nihil eaque amet ipsa. Quas repellendus accusantium temporibus maiores quam!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-5">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <h2>Super Plan</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur similique iusto nisi ipsa ipsum in laborum! Minima sunt modi quos obcaecati odit, animi nulla similique quidem ipsum. Facere, provident dolore. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="list-group">
+            <div class="list-group-item py-5">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <h2>Premium Plan</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iure vel illum explicabo ducimus fugit distinctio quidem commodi non temporibus. Nihil eaque amet ipsa. Quas repellendus accusantium temporibus maiores quam!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<hr class="text-primary">
+
+
+  <!-- FORMS -->
+  <section id="forms">
+    <div class="container-lg">
+      <div class="text-primary text-center">
+      <h1>Contact Us</h1>
+    </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-6 my-5">
+          <p style="font-size:20px">Any queries ? or facing any issues about the site,Dont be shy feel free to Share your problems.</p>
+          <form>
+            <label for="name" class="form-label">Name: </label>
+            <div class="input-group mb-4">
+              <span class="input-group-text"><i class="bi bi-person"></i></span>
+            <input type="text" class="form-control" id="name" placeholder="eg:john joe">
+            </div>
+
+            <label for="email" class="form-label">Email: </label>
+            <div class="input-group mb-4">
+              <span class="input-group-text"><i class="bi bi-at"></i></span>
+            <input type="email" class="form-control" id="email" placeholder="eg:Sha@gmail.com">
+          </div>
+
+            <label for="num" class="form-label">Ph.No:</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text"><i class="bi bi-phone"></i> </span>
+            <input type="number" class="form-control" id="num" placeholder="eg:9989xxxxx">
+          </div>
+
+            <label for="prob" class="form-label">Select your problem: </label>
+            <div class="input-group mb-4">
+              <span class="input-group-text"><i class="bi bi-bug-fill"></i></span>
+            <select id="prob" class="form-select">
+              <option value="video rendering">video problems</option>
+              <option value="audio">Audio Problems</option>
+              <option value="purchase">Payment problem</option>
+              <option value="login">login problems</option>
+            </select>
+          </div>
+            
+            <textarea id="query" class="form-control" cols="1" rows="5" placeholder="enter your query here"></textarea>
+
+            <div class="text-center my-3">
+            <button class="btn btn-primary" type="button">Submit</button>
+          </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="text-primary">
+
+  <!-- MODALS -->
+  <!-- Button trigger modal -->
+  <section class="bg-light">
+<div class="container-lg">
+  <div class="text-center">
+    <h1>Register here</h1>
+    <p>to get updates of new movies or shows</p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Get Updates
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">We are Glad for Registering</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">To Get latest updates enter your email here </p>
+        <label for="ema" class="form-label">Enter your email: </label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href=""><button type="button" class="btn btn-primary">Submit</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<!--<script>
+  const tooltips = document.querySelectorAll('.tooltip')
+  tooltips.forEach (t => {
+    new bootstrap.Tooltip(t)
+  })
+</script>-->
+
+</section>
+</body>
+</html>
