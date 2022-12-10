@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Xlenz2</title>
+    </head>
+        <style>
+            body {
+                background-color:beige;
+            }
+            /*.header hr {
+                border:10px dashed black;
+                border-radius:5px;
+            }*/
+            .header h1 {
+                text-align:center;
+            }
+            .header1 {
+                background-color:rgb(151, 238, 151);
+                border-radius:20px;
+            }
+            .header marquee {
+                background-color:rgb(151, 246, 151);
+            }
+            h1 {
+                font-family:'Kdam Thmor Pro', sans-serif;
+            }
+            pre {
+                font-family:'Kdam Thmor Pro', sans-serif;
+                font-size:25px;
+            }
+            a {
+                text-decoration:none;
+                background-color:rgb(239, 213, 122);
+                font-family:Arial, Helvetica, sans-serif;
+                padding: 10px;
+                color:black;
+                border-radius:20px;
+            }
+            li {
+                display:inline;
+                font-size:larger;
+            }
+            ul {
+                padding: 10px;
+                background-color:beige;
+                text-align: center;
+            }
+            /*.desc {
+                font-size:30px;
+                font-style: oblique;
+                background-color: rgb(108, 235, 246);
+                color:black;
+            }*/
+            .fee {
+                font-size:30px;
+                background-color: beige;
+            }
+            .fee h1 {
+                border-radius:20px;
+            }
+            table, th, td {
+                border:3px solid;
+                border-color:black;
+                border-collapse:collapse;
+                margin:auto;
+                padding:4px;
+            }
+            th {
+                background-color:rgb(122, 197, 248);
+                border-radius:10px;
+                color:black;
+            }
+            .contact h1{
+                font-size:50px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            .image1 {
+                border-radius:20px;
+            }
+            a:hover {
+                background-color:rgb(238, 144, 229);
+            }
+            .container {
+                max-width:100%;
+                height:auto;
+            }
+            .contact {
+                background-color:rgb(151, 246, 151);
+                color:white;
+            }
+            .contact a {
+                border-radius:10px;
+                background-color:black;
+                color:white;
+                margin:auto;
+            }
+            mark {
+                border-radius:30px;
+                background-color:white;;
+            }
+            /*#### MOBILE ####
+            @media screen and(max-width:600p) {
+
+            }*/
+            
+        </style>
+
+<!--######################## HTML ##################################-->
+
+        <body>
+            <div class="container">
+           <!--<img src="https://i.pinimg.com/originals/69/81/de/6981deb6aedd16d4c49fa177ccbb2735.gif" alt="gif" width="200" height="200" style="float:right">-->
+           <div style="background-color:white;text-align: center;">
+            <img src="https://s3.ap-south-1.amazonaws.com/ct-client-logos/logos/rvrjcce" class="rvr" alt="RVR&JC logo">
+            </div>
+            <class="header">
+            <marquee class="header1" direction="right" scrollamount="10">
+            <hr>
+            <h1 style="color:black" class="image1"><b>WELCOME TO OUR SITE.</b></h1>
+            <hr>
+            </marquee>
+            <ul>
+                <li><a href="http://csbs.rvrjcce.ac.in/" class="image1" target=_blank >CSBS</a></li>
+                <li><a href="http://cse.rvrjcce.ac.in/" class="image1" target=_blank>CSE</a></li>
+                <li><a href="http://ece.rvrjcce.ac.in/" class="image1" target=_blank>ECE</a></li>
+                <li><a href="http://www.rvrjcce.ac.in/Electrical/" class="image1" target=_blank>EEE</a></li>
+                <li><a href="http://me.rvrjcce.ac.in/" class="image1" target=_blank>MECH</a></li>
+                <li><a href="http://ca.rvrjcce.ac.in/r.php" class="image1" target=_blank>MCA</a></li>
+                <li><a href="https://rvrjcce.ac.in/placement_statistics.php?menu=plcmnt" class="image1" target=_blank>PLACEMENTS</a></li>
+                <li><a href="forms.html" class="image1" target=_blank >ADMISSIONS</a></li>
+            </ul>
+        </div>
+<!--<div class="desc">
+<pre>
+<br>R V R & J C College of Engineering is an engineering college in Guntur
+Andhra Pradesh, India. 
+The College offers Graduate and Undergraduate education Courses in Engineering and Technology. 
+It is located in the west suburban region of Guntur City, India.<br>
+</pre>
+</div>-->
+            <div>
+            <marquee behavior="alternate" direction="right" scrollamount="6">
+                <img src="https://rvrjcce.ac.in/home_gallery/gallery2.jpg" class="image1" alt="lab.img" height="200" width="400">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVR4OtmZMGWT3iZ6LZokQp_eQ6U1q7HNJSUA&usqp=CAU" class="image1" alt="img" height="200" width="400">
+                <img src="https://rvrjcce.ac.in/best-practices/city_centre1.jpg" class="image1" alt="lab.img" height="200" width="400">
+                <img src="https://4.imimg.com/data4/YK/AL/GLADMIN-13909221/computer-science-and-engineering-500x500.jpg" class="image1" alt="rvr campus.jpg" height="200" width="400">
+                <img src="https://scontent.fhyd2-2.fna.fbcdn.net/v/t1.6435-9/46459408_325237304727681_1356220422898581504_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Or9UAc9bmS4AX-JCMGg&_nc_ht=scontent.fhyd2-2.fna&oh=00_AT8rJiDgesn4F_TgztZS7g3QHZptOhyRqX9dyAuk9-iE3g&oe=62BF2630" class="image1" alt="lab.img" height="200" width="400">
+            </marquee>
+        </div>
+            <br><br>
+            <div style="text-align: center;">
+           <iframe width="660" height="315" src="https://www.youtube.com/embed/ctdJn4rKFi4" class="image1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:center"></iframe>
+           <!--<video width="350" height="350" conttrols>
+            <source src=""
+           </video>
+        </body>-->
+    </div>
+        <br>
+        <div class="fee">
+            <h1 style="color:black;font-size:30px">RVR&JC COLLEGE OF ENGINEERING COLLEGE FEE & ELIGIBILITY: </h1>
+            <table style="font-size:30px">
+                <tr>
+                    <th><b>COURSE</b></th>
+                    <th><b>FEE</b></th>
+                    <th><b>ELIGIBILITY</b></th>
+                </tr>
+                <tr>
+                    <td><b>B.tech</b></td>
+                    <td>1,50,000/-</td>
+                    <td>12th or Diploma</td>
+                </tr>
+                <tr>
+                    <td><b>MBA</b></td>
+                    <td>52,900/-</td>
+                    <td>Graduation</td>
+                </tr>
+                <tr>
+                    <td><b>M.Tech</b></td>
+                    <td>80,000/-</td>
+                    <td>Graduation</td>
+                </tr>
+                <tr>
+                    <td><b>M.C.A</b></td>
+                    <td>1,00,000</td>
+                    <td>Graduation</td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+        <div class="contact">
+           <!-- <h1 style="color:green">contact us: </h1>-->
+            <a href="https://rvrjcce.ac.in/terms-and-conditions.php">Terms and Conditions</a>
+            <br>
+            <p style="font-size:20px"><mark><strong>©️ 2022 Allrights reserved to RVR&JC, Chowdavaram, Guntur. ph:6303252655</mark></strong></p>
+            <img src="https://www.transparentpng.com/thumb/logo-instagram/zI6ZGS-black-logo-instagram-png-transparent.png" alt="insta.png" weight="40" height="40">
+            <img src="https://www.transparentpng.com/thumb/facebook-logo-png/image-black-facebook-logo-png-26.png" alt="facebook.png" weight="40" height="40">
+            <img src="https://www.transparentpng.com/thumb/twitter/twitter-png-transparent-images-black-background-28.png" alt="twitter bird" width="40" height="40">
+        </div>
+    </div>
+    </body>
+</html>
